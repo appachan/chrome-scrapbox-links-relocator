@@ -1,0 +1,50 @@
+@media (min-width: 1050px) {
+.row-flex .col-page {
+  max-width: 960px;
+}
+
+.col-page .page-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.page-wrapper .page {
+  width: 700px;
+}
+
+.page-wrapper .related-page-list {
+  max-width: 260px;
+}
+
+.related-page-list .grid .splitter:first-child {
+  display: none;
+}
+
+.related-page-list .splitter {
+  height: 10px!important;
+}
+
+.related-page-list .realtion-label {
+  /* "realtion-label"，これはtypo？ */
+  height: 50px!important;
+}
+
+.related-page-list .page-list-item {
+  height: 50px!important;
+}
+
+.related-page-list .grid li {
+  width: 200px!important;
+  padding: 0 0 0 0!important;
+  margin: 0 0 5px 0!important;
+}
+
+.related-page-list .grid .page-list-item .content .title{
+  font-size: 15px;
+}
+
+.related-page-list .icon {
+  display: none!important;
+}
+}
